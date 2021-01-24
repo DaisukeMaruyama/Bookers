@@ -1,0 +1,80 @@
+/*books#index*/
+
+h1 {
+    margin-bottom: 18px;
+}
+
+th {
+    padding-bottom: 5px;
+}
+
+
+td {
+    font-size: 13px;
+    line-height: 18px;
+    margin: 33px;
+    padding: 1px 5px 7px;
+}
+
+/*books#edit,books#index共通*/
+
+.form-wrapper h2 {
+    margin: 16px 0;
+}
+
+.form-field {
+    margin-bottom: 10px;
+}
+
+/* books#show */
+
+.show-content {
+    margin: 33px;
+}
+
+/*books#edit*/
+
+.action {
+    margin-bottom: 10px;
+}
+
+.edit-section-bottons {
+    display: flex;
+}
+
+.edit-section-bottons p{
+    margin: 0 4px;
+}
+
+/*error */
+
+.error-explanation {
+    width: 450px;
+    border: 2px solid red;
+    padding: 7px;
+    padding-bottom: 33px;
+    margin-bottom: 20px;
+    background-color: #f0f0f0;
+}
+
+.error-explanation h3 {
+    text-align: left;
+    font-weight: bold;
+    padding: 5px 5px 5px 15px;
+    font-size: 12px;
+    margin: -7px;
+    margin-bottom: 33px;
+    background-color: #c00;
+    color: #fff;
+}
+
+.error-explanation li {
+    font-size: 12px;
+    margin: 0 33px;
+}
+
+
+
+// Place all the styles related to the books controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
